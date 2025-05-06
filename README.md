@@ -24,4 +24,20 @@ A responsive web app built with React that enables users to:
 1. Clone the repo:  
    ```bash 
    git clone https://github.com/mariasad227/myFinalProject.git
+   
+2. Install dependencies:  
+   ```bash  
+   cd myFinalProject && npm install  
+   ```  
+3. Start the app:  
+   ```bash  
+   npm start  
+   ```  
+   → Access at `http://localhost:3000`  
+
+### **Environment Setup**  
+Create `.env`:  
+```env  
+REACT_APP_API_URL=http://localhost:3001 # For future backend integration  
+```  
   
